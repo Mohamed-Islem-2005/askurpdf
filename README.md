@@ -58,11 +58,11 @@ Follow these steps to run the frontend application locally:
 
 This frontend works in conjunction with a dedicated backend service. The backend handles the core RAG architecture, LLM integration, user authentication, and data persistence.
 
-> **Note:** The backend component is maintained and developed by **Ahmed**. Please refer to Ahmed's GitHub repository for the backend configuration, API routes, and necessary environment variables (`.env`).
+> **Note:** The backend component is maintained and developed by **[Ahmed](https://github.com/0ahmed0ghoul)**. Please refer to Ahmed's GitHub repository for the backend configuration, API routes, and necessary environment variables (`.env`).
 
 ---
 
 ## 👥 Contributors
 
-- **Frontend Architecture & UI/UX**: Mohamed Islem (GitHub: [Mohamed-Islem-2005](https://github.com/Mohamed-Islem-2005))
-- **Backend Architecture & AI Integration**: Ahmed
+- **Frontend Architecture & UI/UX**: Mohamed Islem 
+- **Backend Architecture & AI Integration**: Ahmed (GitHub: [0ahmed0ghoul](https://github.com/0ahmed0ghoul))
