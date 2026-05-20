@@ -23,6 +23,7 @@ gsap.registerPlugin(ScrollTrigger);
 import ShinyText from "./ShinyText";
 import FlowingMenu from "./FlowingMenu";
 import Shuffle from "./Shuffle";
+import CommentsSection from "./CommentsSection";
 
 const demoItems = [
   {
@@ -903,8 +904,11 @@ const Home = () => {
         >
           <div className="max-w-6xl mx-auto flex flex-col items-center">
             <div className="text-center mb-16">
-              <h2 className="text-5xl md:text-6xl font-extrabold text-white tracking-tight mb-4">
-                Simple, Transparent Pricing
+              <h2 
+                className="text-7xl md:text-8xl lg:text-[7rem] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-200 to-gray-400 tracking-tighter mb-4 pb-2"
+                style={{ fontFamily: '"Space Grotesk", sans-serif' }}
+              >
+                Flexible Pricing Plans
               </h2>
               <p className="text-gray-400 mt-2 text-lg md:text-xl max-w-2xl font-light">
                 Choose the perfect plan to supercharge your PDF research, chats,
@@ -1095,6 +1099,8 @@ const Home = () => {
           </div>
         </section>
 
+        {/* Comments Section */}
+        <CommentsSection />
 
         {/* Secure Section */}
         <section id="secure-section" className="relative mx-auto w-full max-w-[1100px] h-[60vh] min-h-[450px] my-16 rounded-3xl overflow-hidden flex items-center justify-center bg-black border border-white/10 shadow-[0_0_50px_rgba(255,255,255,0.03)]">
